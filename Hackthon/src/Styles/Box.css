@@ -1,0 +1,35 @@
+
+
+/* GradientBox.css */
+
+.gradient-box {
+    width: 400px; /* Adjust width */
+    height: 360px; /* Adjust height */
+    background-color: rgba(0, 0, 0, 0.542);
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: blur(5px); /* For frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+    margin: 20px auto; /* Center the box */
+  }
+  /* .gradient-box :hover{
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.8);
+  } */
+  
+  .gradient-box h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .gradient-box p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
