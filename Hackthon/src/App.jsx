@@ -1,13 +1,17 @@
 
 import './App.css'
+import Navbar from './Componets/NavBar'
+import AboutSection from './Componets/About'
+import FAQ from './Componets/Faq'
+import Footer from './Componets/Footer'
 
 function App() {
   return (
     <>
-    <div className="Header"><h1 className="text-3xl font-bold text-red-600">
-      Welcome to the Hackathon
-    </h1></div>
-    
+    <Navbar />
+    <AboutSection />
+    <FAQ />
+    <Footer />
 
     </>
   )
