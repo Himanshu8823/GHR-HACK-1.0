@@ -1,5 +1,5 @@
 .footer {
-    background-color: #604f4fe2;
+    background-color: #5d1dff;
     color: #fff;
     padding: 30px 20px;
     font-family: Arial, sans-serif;
@@ -32,7 +32,7 @@
   .footer-links h3,
   .footer-contact h3 {
     margin-bottom: 10px;
-    color: #ff80ab;
+    color: #000000;
     font-size: 16px;
   }
   
@@ -52,7 +52,7 @@
   }
   
   .footer-links ul li a:hover {
-    color: #ff80ab;
+    color: #ff0000;
   }
   
   .footer-contact p {
@@ -61,7 +61,7 @@
   }
   
   .footer-socials a {
-    color: #ff80ab;
+    color: #000000;
     font-size: 20px;
     margin-right: 10px;
     transition: color 0.3s;

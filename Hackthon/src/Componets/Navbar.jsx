@@ -10,7 +10,7 @@ const Navbar = () => {
         <li><a href="#contact">Contact</a></li>
         <li><a href="#team">Team</a></li>
       </ul>
-      <button className="bg-purple-700 text-white font-[Danger] rounded-full px-6 py-2.5  "><a href="#">Register Now</a></button>
+      <button id="Btn" className="bg-purple-700 text-white font-[Danger] rounded-full px-6 py-2.5 "><a className="" href="#">Register Now</a></button>
     </nav>
   );
 };
