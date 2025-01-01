@@ -3,39 +3,10 @@
 @tailwind utilities;
 
 :root{
-  background-color: rgba(0, 72, 255, 0.737);
+  background-color: rgba(0,52,138);
   color: white;
 }
 @font-face {
-  font-family: 'anzo1';
-  src: url('./Fonts/') format('woff2');
-}
-
-@font-face {
-  font-family: 'anzo2';
-  src: url('./Fonts//file1.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'anzo3';
-  src: url('./Fonts//file2.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'anzo4';
-  src: url('./Fonts//file3.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'anzo5';
-  src: url('./Fonts//file4.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'anzo6';
-  src: url('./Fonts//Madefor.woff2') format('woff2');
-}
-@font-face{
-  font-family:'Danger';
-  src: url(./Fonts/Danger.otf);
+  font-family: 'ArgentumSans';
+  src: url('./Fonts/ArgentumSans-Medium.ttf');
 }
