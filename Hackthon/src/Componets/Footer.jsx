@@ -3,7 +3,7 @@ import "../Styles/Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer bg-black bg-opacity-45">
       <div className="footer-container">
         {/* Logo and About Section */}
         <div className="footer-about">
