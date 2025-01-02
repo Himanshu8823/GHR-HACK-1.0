@@ -6,7 +6,7 @@ const EventHighlights = () => {
   return (
     <div className="highlights-container">
       <div className="highlights-content">
-        <h2>Event Highlights</h2>
+        <h2 className="text-white">Event Highlights</h2>
         <ul>
           <li>
             <strong>Duration:</strong> 28 hours of non-stop innovation.

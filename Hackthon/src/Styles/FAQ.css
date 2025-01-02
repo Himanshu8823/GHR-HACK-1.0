@@ -11,7 +11,7 @@
   h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #5212f3;
+    color: #4800ff;
   }
   
   .faq-list {
@@ -21,7 +21,7 @@
   
   .faq-item {
     margin-bottom: 10px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #ffffff;
     padding: 10px 0;
   }
   
@@ -42,7 +42,7 @@
   .faq-answer {
     margin-top: 10px;
     font-size: 14px;
-    color: #ccc;
+    color: #ffffff;
   }
   
   .icon {
@@ -50,6 +50,6 @@
   }
   
   .open .faq-question {
-    color:#5212f3;;
+    color:#4800ff;;
   }
   

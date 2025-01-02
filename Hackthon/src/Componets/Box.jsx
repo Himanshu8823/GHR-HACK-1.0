@@ -6,7 +6,7 @@ import specialAwardStarfish from "../assets/images/Red-Starfish.png"; // Replace
 
 const Prizes = () => {
   return (
-    <div className="prizes-container">
+    <div className="prizes-container z-10">
       <h2 className="text-white font-[Ghr1]">PRIZES</h2>
       <div className="prizes-content">
         <div className="prize-item">
@@ -30,7 +30,7 @@ const Prizes = () => {
           <p className="prize-title">Runners-Up</p>
           <p className="prize-amount">₹50,000</p>
         </div>
-        <div className="prize-item">
+        <div className="prize-item z-10">
           <div className="prize-icons">
             <img src={specialAwardStarfish} alt="Special Award Starfish" className="starfish special" />
           </div>
@@ -38,7 +38,7 @@ const Prizes = () => {
           <p className="prize-description">Domain-Specific Winners & Best Beginner Hack</p>
         </div>
       </div>
-      <img src={whaleImage} alt="Whale" className="background-whale mr-56" />
+      <img src={whaleImage} alt="Whale" className="background-whale mr-56 mb-48" />
     </div>
   );
 };
