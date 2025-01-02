@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-container">
         {/* Logo and About Section */}
         <div className="footer-about">
-          <h1 className='font-[Danger] text-2xl text-black'><span className='text-orange-500'>GHR </span>
+          <h1 className='font-[Ghr4] text-2xl text-black'><span className='text-orange-500'>GHR </span>
             HACK</h1>
           <p>
             <strong>GHR-HACK</strong>, a groundbreaking hackathon by{" "}

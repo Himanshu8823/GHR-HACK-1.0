@@ -3,10 +3,29 @@
 @tailwind utilities;
 
 :root{
-  background-color: rgba(0,52,138);
+  background-color: #00a1cc;
   color: white;
+  
+}
+
+@font-face {
+  font-family: 'Ghr1';
+  src: url('./Fonts/Ghr1.woff2') format('woff2');
 }
 @font-face {
-  font-family: 'ArgentumSans';
-  src: url('./Fonts/ArgentumSans-Medium.ttf');
+  font-family: 'Ghr2';
+  src: url('./Fonts/Ghr2.woff2') format('woff2');
+}@font-face {
+  font-family: 'Ghr3';
+  src: url('./Fonts/Ghr3.woff2') format('woff2');
+}@font-face {
+  font-family: 'Ghr4';
+  src: url('./Fonts/Ghr4.woff2') format('woff2');
+}@font-face {
+  font-family: 'Ghr5';
+  src: url('./Fonts/Ghr5.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Ghr6';
+  src: url('./Fonts/Ghr6.woff2') format('woff2');
 }

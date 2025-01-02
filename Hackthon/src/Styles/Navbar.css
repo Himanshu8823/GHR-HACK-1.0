@@ -7,10 +7,7 @@ nav {
   padding: 1rem 2rem;
 }
 
-.logo img {
-  height: 4rem; /* Matches h-16 class in your JSX */
-  width: auto;
-}
+
 
 .nav-links {
   list-style: none;
