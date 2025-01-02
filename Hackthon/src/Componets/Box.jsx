@@ -1,8 +1,8 @@
 
-import "./Prizes.css";
-import whaleImage from "./assets/images/whale.png"; // Replace with your whale image path
-import starfishImage from "./assets/images/starfish.png"; // Replace with your starfish image path
-import specialAwardStarfish from "./assets/images/special-award-starfish.png"; // Replace with your special award starfish image path
+import "../Styles/Box.css";
+import whaleImage from "../assets/images/Whale.png"; // Replace with your whale image path
+import starfishImage from "../assets/images/Red-Starfish.png"; // Replace with your starfish image path
+import specialAwardStarfish from "../assets/images/Red-Starfish.png"; // Replace with your special award starfish image path
 
 const Prizes = () => {
   return (
