@@ -10,12 +10,14 @@ import RegistrationDetails from './Componets/RegistrationDetails'
 import Sponsors from './Componets/Sponsors'
 import Contact from './Componets/contact'
 import Team from './Componets/team'
+import EventHighlights from './Componets/EventHeightlight'
 
 function App() {
   return (
     <>
     <Navbar />
     <AboutSection />
+    <EventHighlights />
     <Box />
     <RegistrationDetails />
     <Sponsors />

@@ -1,26 +1,46 @@
-import React from "react";
-import "../Styles/Box.css";
-import "remixicon/fonts/remixicon.css";
-const Box = () => {
+
+import "./Prizes.css";
+import whaleImage from "./assets/images/whale.png"; // Replace with your whale image path
+import starfishImage from "./assets/images/starfish.png"; // Replace with your starfish image path
+import specialAwardStarfish from "./assets/images/special-award-starfish.png"; // Replace with your special award starfish image path
+
+const Prizes = () => {
   return (
-    <div>
-         <h1 className="text-center font-[anzo5] uppercase leading-[1] text-[25vw] text-purple-700">Prizes</h1>
-      <div className="gradient-box">
-         <h1><i className="ri-trophy-line text-[18vw] leading-[0.8] text-orange-300 "></i></h1>
-         <h2 className="text-center font-[anzo2] text-orange-300">Winner <br /> 50k</h2>
+    <div className="prizes-container">
+      <h2>PRIZES</h2>
+      <div className="prizes-content">
+        <div className="prize-item">
+          <div className="prize-icons">
+            <img src={starfishImage} alt="Starfish" className="starfish" />
+            <img src={starfishImage} alt="Starfish" className="starfish" />
+            <img src={starfishImage} alt="Starfish" className="starfish" />
+            <img src={starfishImage} alt="Starfish" className="starfish" />
+            <img src={starfishImage} alt="Starfish" className="starfish" />
+          </div>
+          <p className="prize-title">Winner</p>
+          <p className="prize-amount">₹1,00,000</p>
+        </div>
+        <div className="prize-item">
+          <div className="prize-icons">
+            <img src={starfishImage} alt="Starfish" className="starfish" />
+            <img src={starfishImage} alt="Starfish" className="starfish" />
+            <img src={starfishImage} alt="Starfish" className="starfish" />
+            <img src={starfishImage} alt="Starfish" className="starfish" />
+          </div>
+          <p className="prize-title">Runners-Up</p>
+          <p className="prize-amount">₹50,000</p>
+        </div>
+        <div className="prize-item">
+          <div className="prize-icons">
+            <img src={specialAwardStarfish} alt="Special Award Starfish" className="starfish special" />
+          </div>
+          <p className="prize-title">Special Awards</p>
+          <p className="prize-description">Domain-Specific Winners & Best Beginner Hack</p>
+        </div>
       </div>
-      <div className="flex justify-self-center space-x-4">
-      <div className="gradient-box">
-         <h1><i className="ri-trophy-line text-[18vw] leading-[0.8] text-slate-400 "></i></h1>
-         <h2 className="text-center font-[anzo2] text-slate-400"> 1st Runner Up <br /> 25k</h2>
-      </div>
-      <div className="gradient-box hover:shadow-2xl">
-         <h1><i className="ri-trophy-line text-[18vw] leading-[0.8] text-orange-900 "></i></h1>
-         <h2 className="text-center font-[anzo2] text-orange-900"> 2st Runner Up <br />15k</h2>
-      </div>
-      </div>
+      <img src={whaleImage} alt="Whale" className="background-whale" />
     </div>
   );
 };
 
-export default Box;
+export default Prizes;
