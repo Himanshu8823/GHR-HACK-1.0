@@ -4,7 +4,7 @@ import Logo from "../assets/images/GHR.png"; // Optional for custom styling
 
 const Navbar = () => {
   return (
-    <nav className=" mt-2 bg-black bg-opacity-45 z-10 fixed top-0 left-0 right-0" >
+    <nav className=" mt-2 bg-black font-[Ghr1] bg-opacity-45 z-10 fixed top-0 left-0 right-0" >
       <div className="w-20 h-16"><img src={Logo} alt="" /></div>
       <ul className="nav-links font-[Danger] uppercase text-3xl">
         <li ><a href="#home">Home</a></li>

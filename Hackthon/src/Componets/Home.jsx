@@ -1,10 +1,11 @@
 import Banner from "../assets/images/Banner.png";
 import ocean from "../assets/images/Ocean.png";
 import Date from "../assets/images/Date.png";
+import "../Styles/Home.css";
 
 const Home = () => {
   return (
-    <div className="mt-32">
+    <div className="mt-32 background">
         <div className="flex items-center justify-center"> 
           <img src={Banner} alt="Banner" className="w-full items-center justify-center" />
         </div>

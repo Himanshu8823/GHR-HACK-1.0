@@ -5,7 +5,9 @@
 :root{
   background-color: #00a1cc;
   color: white;
+  
 }
+
 @font-face {
   font-family: 'Ghr1';
   src: url('./Fonts/Ghr1.woff2') format('woff2');
