@@ -6,7 +6,10 @@ import FAQ from './Componets/Faq'
 import Footer from './Componets/Footer'
 import Slider from './Componets/ProblemStatement'
 import Box from './Componets/Box'
-
+import RegistrationDetails from './Componets/RegistrationDetails'
+import Sponsors from './Componets/Sponsors'
+import Contact from './Componets/contact'
+import Team from './Componets/team'
 
 function App() {
   return (
@@ -14,8 +17,12 @@ function App() {
     <Navbar />
     <AboutSection />
     <Box />
+    <RegistrationDetails />
+    <Sponsors />
     <Slider />
     {/* <Slider /> */}
+    <Contact />
+    <Team />
     <FAQ />
     <Footer />
 
