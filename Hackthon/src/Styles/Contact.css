@@ -1,10 +1,10 @@
 
-.Cursor2:hover{
+/* .Cursor2:hover{
     cursor: url('../Hover.png'), auto; 
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 
-}
+} */
 .Cursor2 {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -22,3 +22,6 @@
     opacity: 1 !important;
     transform: translateX(0) !important;
 }
+ .Main1{
+    background-color:#011947 ;
+ }

@@ -25,7 +25,6 @@ function App() {
     <Box />
     <RegistrationDetails />
     <Sponsors />
-    {/* <Slider /> */}
     <Team />
     <FAQ />
     <Contact />

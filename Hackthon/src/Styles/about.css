@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #00a1cc; /* Match the blue background */
+  background: #00A6D2; /* Match the blue background */
   padding: 3.125rem; /* 50px to rem */
   height: 100vh; /* Full screen height */
 }

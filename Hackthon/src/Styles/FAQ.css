@@ -5,7 +5,11 @@
     border-radius: 10px;
     max-width: 600px;
     margin: 0 auto;
+   
   }
+.cursor2{
+  cursor: url('../Hover.png'), auto;
+}
   
   h2 {
     text-align: center;
