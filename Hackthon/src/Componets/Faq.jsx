@@ -19,7 +19,8 @@ const FAQ = () => {
   };
 
   return (
-    <div className="faq-container Cursor2">
+    <div className="faq bg-[#011947]">
+    <div className="faq-container Cursor2 bg-[#011947]">
        <h1 className="Cursor2 text-center font-[Ghr4] uppercase leading-[1] text-4xl text-white">FAQ</h1>
       <ul className="faq-list">
         {faqs.map((faq, index) => (
@@ -32,6 +33,7 @@ const FAQ = () => {
           </li>
         ))}
       </ul>
+    </div>
     </div>
   );
 };
