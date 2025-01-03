@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #00a1cc; /* Match the blue background */
+    background: linear-gradient(to bottom,#00A6D2, #014EB6 );
     padding: 50px;
     height: 100vh; /* Full screen height */
   }

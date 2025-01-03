@@ -7,6 +7,7 @@ import specialAwardStarfish from "../assets/images/Red-Starfish.png"; // Replace
 const Prizes = () => {
   return (
     <div className="prizes-container z-10" >
+      <img src={whaleImage} alt="Whale" className="background-whale mr-56 mb-34" />
       <h2 className="text-white font-[Ghr1]">PRIZES</h2>
       <div className="prizes-content">
         <div className="prize-item">
@@ -38,7 +39,6 @@ const Prizes = () => {
           <p className="prize-description">Domain-Specific Winners & Best Beginner Hack</p>
         </div>
       </div>
-      <img src={whaleImage} alt="Whale" className="background-whale mr-56 mb-48" />
     </div>
   );
 };

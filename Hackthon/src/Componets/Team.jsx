@@ -1,8 +1,10 @@
 import Mayur from"../assets/Team/Me.jpg";
+import "../Styles/Team.css";
 
 function Team() {
     return (
-        <div className="text-center" id="team">
+        <div className=" bg-[#011947]">
+        <div className="text-center Team" id="team">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mt-1">Team</h1>
             <h2 className="text-2xl sm:text-3xl font-bold mt-10 text-left ms-10 ps-10 text-white">ORGANIZERS</h2>
             <div className="flex flex-col sm:flex-row justify-center mt-10 space-y-10 sm:space-y-0 sm:space-x-10">
@@ -77,6 +79,7 @@ function Team() {
                     <p className="text-md sm:text-lg">Head Coordinator</p>
                 </div>                
             </div>
+        </div>
         </div>
     );
 }

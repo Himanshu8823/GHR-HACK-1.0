@@ -3,7 +3,7 @@ import "../Styles/Contact.css";
 
 const Contact = () => {
     return (
-        <div className="flex flex-col md:flex-row items-center justify-center space-y-1 md:space-y-0 md:space-x-8 p-2 min-h-screen">
+        <div className="bg-[#011947] flex flex-col md:flex-row items-center justify-center space-y-1 md:space-y-0 md:space-x-8 p-2 min-h-screen">
             <div className="text-white">
                 <h1 className="text-4xl font-bold mb-4">CONTACT US</h1>
                 <p className="text-lg mb-4">I AM INTERESTED IN:</p>

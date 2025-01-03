@@ -1,6 +1,6 @@
 .prizes-container {
   position: relative;
-  background-color: #00a1cc; /* Match the blue background */
+  background: linear-gradient(to bottom,#014EB6, #014EB6);
   padding: 50px;
   text-align: center;
   color: white;
