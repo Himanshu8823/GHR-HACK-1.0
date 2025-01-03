@@ -1,14 +1,11 @@
-
 import "../Styles/about.css";
 import turtleImage from "../assets/images/Turtle.png"; // Replace with the path to your image
 
 const AboutSection = () => {
-
-  
   return (
     <div className="about-container">
       <div className="about-content">
-        <img className=" about-image" id="turtle" src={turtleImage} alt="Turtle"  />
+        <img src={turtleImage} alt="Turtle" className="about-image" />
         <div className="about-text">
           <h2 className="text-right text-white" >ABOUT</h2>
           <p>
