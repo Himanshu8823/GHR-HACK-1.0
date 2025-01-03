@@ -6,7 +6,7 @@ import specialAwardStarfish from "../assets/images/Red-Starfish.png"; // Replace
 
 const Prizes = () => {
   return (
-    <div className="prizes-container z-10">
+    <div className="prizes-container z-10" >
       <h2 className="text-white font-[Ghr1]">PRIZES</h2>
       <div className="prizes-content">
         <div className="prize-item">

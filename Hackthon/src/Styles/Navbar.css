@@ -25,6 +25,7 @@ nav {
 
 .nav-links a:hover {
   color: #5212f3; /* Orange hover effect */
+  cursor: url('../Hover.png'),pointer;
 }
 
 .theme-toggle {
@@ -45,4 +46,5 @@ nav {
 }
 #Btn:hover{
 box-shadow: 1px 5px 1px rgba(0, 0, 0, 0.6);
+cursor: url('../Hover.png'),pointer;
 }

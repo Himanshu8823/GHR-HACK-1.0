@@ -12,11 +12,13 @@ import Contact from './Componets/contact'
 import Team from './Componets/team'
 import EventHighlights from './Componets/EventHeightlight'
 import Home from './Componets/Home'
+
+
 function App() {
   return (
-    <>
-    <Navbar />
-    <Home />
+    <div className='App' >
+    <Navbar  />
+    <Home  />
     <AboutSection />
     <EventHighlights />
     <Box />
@@ -27,8 +29,7 @@ function App() {
     <Team />
     <FAQ />
     <Footer />
-
-    </>
+    </div>
   )
 }
 
