@@ -10,25 +10,4 @@ btn:hover{
     cursor: url('Hover.png'), auto;
 }
 
-.App {
-    /* position: relative; */
-    /* z-index: 2; Ensure content appears above the water wave */
-    /* color: white; Text color for contrast */
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    font-family: Arial, sans-serif;
-  }
-  
-  .WaterWave {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 20; /* Water wave is below the content */
-  }
   

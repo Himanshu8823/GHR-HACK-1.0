@@ -19,13 +19,13 @@ const FAQ = () => {
   };
 
   return (
-    <div className="faq bg-[#011947]">
-    <div className="faq-container Cursor2 bg-[#011947]">
-       <h1 className="Cursor2 text-center font-[Ghr4] uppercase leading-[1] text-4xl text-white">FAQ</h1>
-      <ul className="faq-list">
+    <div className="faq  bg-[#011947]">
+    <div className="faq-container bg-[#011947]">
+       <h1 className="text-center font-[Ghr4] uppercase leading-[1] text-4xl text-white">FAQ</h1>
+      <ul className="faq-list cursor2">
         {faqs.map((faq, index) => (
           <li key={index} className={`faq-item ${openIndex === index ? "open" : ""}`}>
-            <button className="Cursor2 faq-question" onClick={() => toggleFAQ(index)}>
+            <button className="cursor2 faq-question" onClick={() => toggleFAQ(index)}>
               {faq.question}
               <span className="icon">{openIndex === index ? "-" : "+"}</span>
             </button>

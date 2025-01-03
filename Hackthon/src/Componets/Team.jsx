@@ -3,7 +3,7 @@ import "../Styles/Team.css";
 
 function Team() {
     return (
-        <div className=" bg-[#011947]">
+        <div className="mb-0 bg-[#011947]">
         <div className="text-center Team" id="team">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mt-1">Team</h1>
             <h2 className="text-2xl sm:text-3xl font-bold mt-10 text-left ms-10 ps-10 text-white">ORGANIZERS</h2>
