@@ -12,15 +12,11 @@ import Contact from './Componets/contact'
 import Team from './Componets/team'
 import EventHighlights from './Componets/EventHeightlight'
 import Home from './Componets/Home'
-import WaterWave from 'react-water-wave';
-import seaBackground from './assets/images/sea.png';
+
 
 
 function App() {
   return (
-    <WaterWave 
-  >
-    {() => (
     <div className='App' >
     <Navbar  />
     <Home  />
@@ -35,9 +31,7 @@ function App() {
     <Contact />
     <Footer />
     </div>
-          )}
-    </WaterWave>
-  );
+  )
 }
 
 export default App
