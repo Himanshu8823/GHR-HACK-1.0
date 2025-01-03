@@ -5,7 +5,7 @@ import "../Styles/Home.css";
 
 const Home = () => {
   return (
-    <div className="mt-32 background">
+    <div className="mt-44 background" >
         <div className="flex items-center justify-center"> 
           <img src={Banner} alt="Banner" className="w-full items-center justify-center" />
         </div>
