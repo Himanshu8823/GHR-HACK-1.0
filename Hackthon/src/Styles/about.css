@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #00a1cc; /* Match the blue background */
+  /* background-color: #00a1cc; Match the blue background */
   padding: 3.125rem; /* 50px to rem */
   height: 100vh; /* Full screen height */
 }
@@ -15,26 +15,27 @@
 }
   
 .about-image {
-  max-width: 18.75rem; /* 300px to rem */
-  margin-right: 1.875rem; /* 30px to rem */
+  max-width:25.75rem; /* 300px to rem */
+  margin-right: 1.875rem;
+  opacity: 0.25rem; /* 30px to rem */
 }
+
   
 .about-text {
-    max-width: 600px;
-  }
+  max-width: 37.5rem; /* 600px to rem */
+}
   
-  .about-text h2 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
+.about-text h2 {
+  font-size: 2.25rem; /* 36px to rem */
+  font-weight: bold;
+  margin-bottom: 1.25rem; /* 20px to rem */
+}
   
-  .about-text p {
-    font-size: 18px;
-    line-height: 1.8;
-  }
+.about-text p {
+  font-size: 1.125rem; /* 18px to rem */
+  line-height: 1.8;
+}
   
-  .about-text strong {
-    font-weight: bold;
-  }
-  
+.about-text strong {
+  font-weight: bold;
+}

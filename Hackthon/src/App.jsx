@@ -25,9 +25,9 @@ function App() {
     <RegistrationDetails />
     <Sponsors />
     {/* <Slider /> */}
-    <Contact />
     <Team />
     <FAQ />
+    <Contact />
     <Footer />
     </div>
   )
