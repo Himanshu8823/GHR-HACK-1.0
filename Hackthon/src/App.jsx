@@ -12,15 +12,17 @@ import Contact from './Componets/contact'
 import Team from './Componets/team'
 import EventHighlights from './Componets/EventHeightlight'
 import Home from './Componets/Home'
+import Background from './Componets/Background'
 
 
 
 function App() {
   return (
     <div className='App' >
-    <Navbar  />
+      <Background />
+    {/* <Navbar  />
     <Home  />
-    <AboutSection />
+    <AboutSection /> */}
     <EventHighlights />
     <Box />
     <RegistrationDetails />

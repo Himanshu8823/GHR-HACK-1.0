@@ -3,10 +3,13 @@
 @tailwind utilities;
 
 :root{
-  background-color: #00A6D2;
+  /* background-color: #00A6D2; */
   color: white;
-  
+  margin: 0;
+  padding: 0;
 }
+
+
 
 @font-face {
   font-family: 'Ghr1';
