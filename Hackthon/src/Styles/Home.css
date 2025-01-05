@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 30px;
+        height: 100vh;
+    }
+
+    
+}

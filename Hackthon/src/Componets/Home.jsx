@@ -7,10 +7,10 @@ const Home = () => {
   return (
     <div className="background" >
         <div className=" flex items-center justify-center"> 
-          <img src={Banner} alt="Banner" className=" mt-44 w-full items-center justify-center" />
+          <img src={Banner} alt="Banner" className=" mt-32 h-54 w-full items-center justify-center" />
         </div>
         <div className="flex items-center justify-center"> 
-        <img src={Date} alt="Date" className="w-96 items-center justify-center" /> 
+        <img src={Date} alt="Date" className="w-96 h-16 items-center justify-center" /> 
         </div>
         {/* <div className="flex items-center justify-center mt-24"> 
         <img src={ocean} alt="Banner" className="w-96 items-center justify-center" /> 

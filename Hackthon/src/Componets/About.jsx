@@ -5,9 +5,9 @@ const AboutSection = () => {
   return (
     <div className="about-container">
       <div className="about-content">
-        <img src={turtleImage} alt="Turtle" className="about-image" />
-        <div className="about-text">
-          <h2 className="text-right text-white" >ABOUT</h2>
+        <img src={turtleImage} alt="Turtle" className="about-image z-10" />
+        <div className="about-text z-20">
+          <h2 className="text-right text-white Heading" >ABOUT</h2>
           <p>
             Get ready to witness <strong>GHRhack 1.0</strong>, our college's flagship event that brings together the
             brightest minds from across the nation for an exhilarating innovation marathon. This is your chance to be
