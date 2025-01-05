@@ -19,10 +19,10 @@ import Background from './Componets/Background'
 function App() {
   return (
     <div className='App' >
-      <Background />
-    {/* <Navbar  />
+      {/* <Background /> */}
+    <Navbar  />
     <Home  />
-    <AboutSection /> */}
+    <AboutSection />
     <EventHighlights />
     <Box />
     <RegistrationDetails />
