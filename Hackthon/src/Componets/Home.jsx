@@ -5,16 +5,16 @@ import "../Styles/Home.css";
 
 const Home = () => {
   return (
-    <div className="mt-44 background" >
-        <div className="flex items-center justify-center"> 
-          <img src={Banner} alt="Banner" className="w-full items-center justify-center" />
+    <div className="background" >
+        <div className=" flex items-center justify-center"> 
+          <img src={Banner} alt="Banner" className="Banner mt-32 h-54 w-full items-center justify-center" />
         </div>
         <div className="flex items-center justify-center"> 
-        <img src={Date} alt="Date" className="w-96 items-center justify-center" /> 
+        <img src={Date} alt="Date" className="Date w-96 h-16 items-center justify-center" /> 
         </div>
-        <div className="flex items-center justify-center mt-24"> 
+        {/* <div className="flex items-center justify-center mt-24"> 
         <img src={ocean} alt="Banner" className="w-96 items-center justify-center" /> 
-        </div>
+        </div> */}
       
     </div>
   )

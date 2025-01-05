@@ -3,10 +3,14 @@
 @tailwind utilities;
 
 :root{
-  background-color: #00A6D2;
+  /* background-color: #00A6D2; */
   color: white;
-  
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
+
+
 
 @font-face {
   font-family: 'Ghr1';
@@ -20,7 +24,7 @@
   src: url('./Fonts/Ghr3.woff2') format('woff2');
 }@font-face {
   font-family: 'Ghr4';
-  src: url('./Fonts/Ghr4.woff2') format('woff2');
+  src: url('./Fonts/Righteous-Regular.ttf');
 }@font-face {
   font-family: 'Ghr5';
   src: url('./Fonts/Ghr5.woff2') format('woff2');
