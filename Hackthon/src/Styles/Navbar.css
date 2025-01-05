@@ -51,3 +51,19 @@ cursor: url('../Hover.png'),pointer;
 #Btn a:hover{
   cursor: url('../Hover.png'),pointer;
 }
+@media screen and (max-width: 768px) {
+  .nav-links a {
+  
+    display: none;
+  }
+  .Logo{
+    display: none;
+  }
+  #Btn {
+    transition: background-color 0.3s ease-in-out;
+  }
+  .Menu{
+    height: auto;
+  
+  }
+}
