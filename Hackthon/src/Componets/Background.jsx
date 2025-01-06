@@ -4,26 +4,29 @@ import Navbar from "./Navbar";
 
 const Background = () => {
   return (
-    <div className="App">
+    <div className="App relative">
+      {/* Video Background */}
       <video
         autoPlay
         loop
         muted
-        style={{
-          position: "absolute",
-          width: "100%",
-          left: "50%",
-          top: "50%",
-          height: "100%",
-          objectFit: "cover",
-          transform: "translate(-50%, -50%)",
-          zIndex: "-1",
-        }}
+        className="absolute top-0 left-0 w-full h-[110vh] object-cover"
       >
         <source src={VideoBG} type="video/mp4" />
+        {/* Fallback message */}
+        Your browser does not support the video tag.
       </video>
+
+      {/* Overlay */}
+      <div className="absolute top-0 left-0 w-full h-[110vh] bg-black bg-opacity-40"></div>
+
+      {/* Navbar */}
       <Navbar />
-      <Home />
+
+      {/* Home Component */}
+      <div className="relative z-10">
+        <Home />
+      </div>
     </div>
   );
 };
