@@ -3,9 +3,9 @@ import "../Styles/Team.css";
 
 function Team() {
     return (
-        <div className="mb-0 bg-[#011947]">
+        <div className=" bg-[#011947]">
         <div className="text-center Team" id="team">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mt-1">Team</h1>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold ">Team</h1>
             <h2 className="text-2xl sm:text-3xl font-bold mt-10 text-left ms-10 ps-10 text-white">ORGANIZERS</h2>
             <div className="flex flex-col sm:flex-row justify-center mt-10 space-y-10 sm:space-y-0 sm:space-x-10">
                 <div className="text-center">
@@ -67,7 +67,7 @@ function Team() {
             </div>
 
             <h2 className="text-2xl sm:text-3xl font-bold mt-10 text-left ms-10 ps-10 text-white">FINANCE</h2>
-            <div className="flex flex-col sm:flex-row justify-center mt-10 space-y-10 sm:space-y-0 sm:space-x-10 mb-10 pb-10">
+            <div className="flex flex-col sm:flex-row justify-center mt-10 space-y-10 sm:space-y-0 sm:space-x-10  pb-10">
                 <div className="text-center">
                     <div className="w-40 h-40 sm:w-60 sm:h-60 bg-gray-300 rounded-full mx-auto"></div>
                     <h3 className="text-lg sm:text-xl font-bold mt-4">Shreyas Badgujar</h3>

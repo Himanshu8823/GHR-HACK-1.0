@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="mt-1 bg-black font-[Ghr1] bg-opacity-45 z-20 fixed top-0 left-0 right-0 flex items-center justify-between px-4 md:px-8">
       {/* Logo */}
       <div className="flex items-center">
-        <img className="w-16 h-14 Logo" src={Logo} alt="Logo" />
+        <img className="w-16 h-10 Logo" src={Logo} alt="Logo" />
       </div>
 
       {/* Navigation Links */}
