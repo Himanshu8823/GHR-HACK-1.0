@@ -13,7 +13,7 @@ import Team from './Componets/team'
 import EventHighlights from './Componets/EventHeightlight'
 import Home from './Componets/Home'
 import Background from './Componets/Background'
-
+import HackathonThemes from './Componets/Theme'
 
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
     <Background />
     <AboutSection />
     <EventHighlights />
+    <HackathonThemes />
     <Box />
     <RegistrationDetails />
     <Sponsors />

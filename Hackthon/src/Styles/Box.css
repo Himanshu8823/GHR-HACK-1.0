@@ -1,12 +1,6 @@
-.prizes-container {
-  position: relative;
-  background: linear-gradient(to bottom,#014EB6, #014EB6);
-  padding: 50px;
-  text-align: center;
-  color: white;
-}
 
-.prizes-content {
+
+/* .prizes-content {
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -50,4 +44,4 @@
   right: -50px;
   max-width: 300px;
   opacity: 0.8;
-}
+} */
