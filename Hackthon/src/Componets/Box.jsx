@@ -11,7 +11,7 @@ const prizes = [
     },
     {
         position: "1st Prize",
-        amount: "₹20,000",
+        amount: "₹30,000",
         medal: "Gold",
         icon: "/path-to-image/gold-trophy.png",
         borderColor: "border-pink-500",
