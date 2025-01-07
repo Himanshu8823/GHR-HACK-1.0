@@ -11,7 +11,7 @@ const prizes = [
     },
     {
         position: "1st Prize",
-        amount: "₹20,000",
+        amount: "₹30,000",
         medal: "Gold",
         icon: "/path-to-image/gold-trophy.png",
         borderColor: "border-pink-500",
@@ -28,11 +28,13 @@ const prizes = [
 const PrizeCards = () => {
     return (
         <section className="bg-[#014EB6] text-white py-16">
+            <h1 className="text-5xl font-[Ghr4]" >Prize</h1>
             <div className="container mx-auto flex justify-center gap-6">
+                
                 {prizes.map((prize, index) => (
                     <div
                         key={index}
-                        className={`prize-card w-60 bg-gray-900 rounded-xl p-6 text-center shadow-lg border-2 ${prize.borderColor} ${
+                        className={`prize-card w-60 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% rounded-xl p-6 text-center shadow-lg border-2 ${prize.borderColor} ${
                             prize.position === "1st Prize" ? "ring-4 ring-pink" : ""
                         } hover:scale-105 hover:shadow-2xl transition-transform duration-300`}
                     >
