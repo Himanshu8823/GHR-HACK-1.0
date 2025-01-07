@@ -14,7 +14,7 @@ import EventHighlights from './Componets/EventHeightlight'
 import Home from './Componets/Home'
 import Background from './Componets/Background'
 import HackathonThemes from './Componets/Theme'
-
+import problemStatements from './Componets/Problems'
 
 function App() {
   return (
@@ -32,6 +32,7 @@ function App() {
     <FAQ />
     <Contact />
     <Footer />
+    {/* <ProblemStatements /> */}
     </div>
   )
 }
