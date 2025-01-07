@@ -3,16 +3,15 @@ import Logo from "../assets/images/GHR.png"; // Optional for custom styling
 
 const Navbar = () => {
   return (
-    <nav className="mt-1 bg-black font-[Ghr1] bg-opacity-45 z-20 fixed top-0 left-0 right-0 flex items-center justify-between px-4 md:px-8">
+    <nav className="mt-2 bg-black font-[Ghr1] bg-opacity-45 z-20 absolute top-0 left-0 right-0 flex items-center justify-between px-4 md:px-8">
       {/* Logo */}
       <div className="flex items-center">
         <img className="w-16 h-10 Logo" src={Logo} alt="Logo" />
       </div>
-
       {/* Navigation Links */}
       <ul className="hidden md:flex nav-links font-[Ghr4] uppercase text-sm md:text-xl space-x-6">
         <li><a href="#home" className="hover:text-gray-300">Home</a></li>
-        <li><a href="#themes" className="hover:text-gray-300">Themes</a></li>
+        <li><a href="#theme" className="hover:text-gray-300">Themes</a></li>
         <li><a href="#contact" className="hover:text-gray-300">Contact</a></li>
         <li><a href="#team" className="hover:text-gray-300">Team</a></li>
       </ul>

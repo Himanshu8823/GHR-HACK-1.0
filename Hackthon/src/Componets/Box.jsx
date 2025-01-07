@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "../Styles/Box.css"; // Add styles here or use Tailwind CSS
 
 const prizes = [
@@ -32,16 +32,16 @@ const PrizeCards = () => {
                 {prizes.map((prize, index) => (
                     <div
                         key={index}
-                        className={`prize-card bg-gray-900 rounded-xl p-6 text-center shadow-lg border-2 ${prize.borderColor} ${
+                        className={`prize-card w-60 bg-gray-900 rounded-xl p-6 text-center shadow-lg border-2 ${prize.borderColor} ${
                             prize.position === "1st Prize" ? "ring-4 ring-pink" : ""
                         } hover:scale-105 hover:shadow-2xl transition-transform duration-300`}
                     >
                         <div className="flex justify-center mb-4">
-                            <img src={prize.icon} alt={prize.medal} className="w-16 h-16" />
+                            <img src={prize.icon} alt={prize.medal} className="w-20 h-16" />
                         </div>
                         <h3 className="text-xl font-bold">{prize.position}</h3>
                         <p className="text-3xl font-extrabold mt-2">{prize.amount}</p>
-                        <span className="mt-4 inline-block bg-purple-900 text-purple-300 text-sm px-3 py-1 rounded-full">
+                        <span className="mt-4 inline-block bg-purple text-purple-300 text-sm px-3 py-1 rounded-full">
                             {prize.medal}
                         </span>
                     </div>
