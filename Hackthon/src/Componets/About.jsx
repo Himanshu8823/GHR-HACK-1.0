@@ -3,8 +3,8 @@ import turtleImage from "../assets/images/Turtle.png"; // Replace with the path 
 
 const AboutSection = () => {
   return (
-    <div className="about-container">
-      <div className="about-content">
+    <div className=" about-container">
+      <div className=" pt-40 about-content">
         <img src={turtleImage} alt="Turtle" className="about-image z-10" />
         <div className="about-text z-20">
           <h2 className="text-right text-white Heading" >ABOUT</h2>
