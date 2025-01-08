@@ -24,7 +24,7 @@ const Footer = () => {
             <ul className="space-y-0">
               <li>
                 <a
-                  href="https://linktr.ee"
+                  href="https://www.linkedin.com/company/ghrhack-1-0/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className=" text-xl md:text-sm"
@@ -44,7 +44,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://devfolio.co"
+                  href="https://www.instagram.com/ghrhack_1.0?igsh=MWlkYXdlMG12cXI2aw=="
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-grey-500 text-[10px] md:text-sm"
@@ -64,7 +64,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://devfolio.co"
+                  href="https://discord.gg/R3PeMPGX"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-grey-500 text-[10px] md:text-sm"
@@ -86,16 +86,9 @@ const Footer = () => {
               Tambapura, Mohadi, Jalgaon <br />
               Maharashtra 425002
             </p>
-            <div className="footer-socials flex justify-center md:justify-start mt-4 space-x-4">
+            <div className="footer-socials flex justify-center md:justify-start mt-4 space-x-2">
               <a
-                href="mailto:contact@example.com"
-                aria-label="Email"
-                className="hover:text-orange-500"
-              >
-                <i className="ri-mail-line text-lg md:text-2xl"></i>
-              </a>
-              <a
-                href="https://x.com"
+                href="https://x.com/Mayur_nikumbh07"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="X"
@@ -104,7 +97,7 @@ const Footer = () => {
                 <i className="ri-twitter-x-line text-lg md:text-2xl"></i>
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/ghrhack_1.0?igsh=MWlkYXdlMG12cXI2aw=="
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -113,7 +106,7 @@ const Footer = () => {
                 <i className="ri-instagram-line text-lg md:text-2xl"></i>
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/ghrhack-1-0/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"

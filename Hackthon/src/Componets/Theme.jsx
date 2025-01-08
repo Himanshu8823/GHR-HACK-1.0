@@ -38,7 +38,7 @@ const themes = [
 const HackathonThemes = () => {
     
     return (
-        <section className=" bg-[#014EB6] text-white py-16">
+        <section id="Theme" className=" bg-[#014EB6] text-white py-16">
             <div  className="container mx-12 px-12">
                 <h2 className="font-[Ghr4] text-5xl mb-12 text-center text-white">Hackathon Themes</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
