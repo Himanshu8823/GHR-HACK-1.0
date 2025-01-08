@@ -35,13 +35,13 @@ const Contact = () => {
                 ref={leftSectionRef}
                 className="text-white text-center md:text-left transition-opacity opacity-0 transform -translate-x-10"
             >
-                <h1 className="text-5xl font-bold mb-6 drop-shadow-lg">CONTACT US</h1>
+                <h1 className="font-[Ghr4] text-5xl font-bold mb-6 drop-shadow-lg">CONTACT US</h1>
                 <p className="text-xl mb-6 drop-shadow-md">I AM INTERESTED IN:</p>
                 <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                     {["Participating", "Collaboration", "Sponsorship", "Helping", "Event"].map((item) => (
                         <button
                             key={item}
-                            className="transform Cursor2 px-6 py-3 border border-white rounded-full bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 text-white shadow-lg hover:scale-110 hover:shadow-2xl transition duration-300 ease-out"
+                            className="transform Cursor2 px-6 py-3 border border-white rounded-full  text-white shadow-lg hover:scale-110 hover:shadow-2xl transition duration-300 ease-out"
                         >
                             {item}
                         </button>
@@ -95,7 +95,7 @@ const Contact = () => {
                         </label>
                     </div>
                     <button
-                        className="Cursor2 w-full bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 text-white py-3 rounded-full shadow-lg transform hover:scale-110 hover:shadow-2xl transition duration-300 ease-out"
+                        className="Cursor2 w-28 bg-purple-600  text-black py-3 rounded-full shadow-lg transform hover:scale-110 hover:shadow-2xl transition duration-300 ease-out"
                         type="submit"
                     >
                         Submit

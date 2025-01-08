@@ -19,15 +19,15 @@ const Footer = () => {
           </div>
 
           {/* Useful Links Section */}
-          <div className=" Usefull footer-links md:text-left text-xs md:text-sm">
-            <h3 className="text-[1rem] md:text-xl font-semibold mb-1">Useful Links</h3>
+          <div className="UseFull font-[Ghr4] footer-links md:text-left md:text-sm">
+            <h3 className=" md:text-xl font-bold mb-1">Useful Links</h3>
             <ul className="space-y-0">
               <li>
                 <a
                   href="https://linktr.ee"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-orange-500 text-[10px] md:text-sm"
+                  className=" text-xl md:text-sm"
                 >
                   LinkedIn
                 </a>
@@ -37,9 +37,39 @@ const Footer = () => {
                   href="https://devfolio.co"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-orange-500 text-[10px] md:text-sm"
+                  className="hover:text-grey-500 text-[10px] md:text-sm"
                 >
                   Devfolio
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://devfolio.co"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-grey-500 text-[10px] md:text-sm"
+                >
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://devfolio.co"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-grey-500 text-[10px] md:text-sm"
+                >
+                  Whatsapp
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://devfolio.co"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-grey-500 text-[10px] md:text-sm"
+                >
+                  Discord
                 </a>
               </li>
             </ul>

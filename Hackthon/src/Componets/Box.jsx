@@ -1,27 +1,28 @@
 // import React from "react";
 import "../Styles/Box.css"; // Add styles here or use Tailwind CSS
+import TridentGold from "../assets/Prizes/Trident-Gold.png"; // Import images here
 
 const prizes = [
     {
         position: "2nd Prize",
         amount: "₹15,000",
         medal: "Silver",
-        icon: "/path-to-image/silver-medal.png", // Replace with actual paths
-        borderColor: "border-gray-500",
+        icon: TridentGold, // Replace with actual paths
+        borderColor: "border-grayamber-500",
     },
     {
         position: "1st Prize",
         amount: "₹30,000",
         medal: "Gold",
-        icon: "/path-to-image/gold-trophy.png",
-        borderColor: "border-pink-500",
+        icon: TridentGold,
+        borderColor: "border-Amber-700",
     },
     {
         position: "3rd Prize",
         amount: "₹10,000",
         medal: "Bronze",
-        icon: "/path-to-image/bronze-medal.png",
-        borderColor: "border-gray-500",
+        icon: TridentGold,
+        borderColor: "border-Amber-500",
     },
 ];
 
@@ -34,18 +35,15 @@ const PrizeCards = () => {
                 {prizes.map((prize, index) => (
                     <div
                         key={index}
-                        className={`prize-card w-60 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% rounded-xl p-6 text-center shadow-lg border-2 ${prize.borderColor} ${
+                        className={`prize-card w-60  bg-slate-900 rounded-xl p-6 text-center shadow-lg border-2 ${prize.borderColor} ${
                             prize.position === "1st Prize" ? "ring-4 ring-pink" : ""
                         } hover:scale-105 hover:shadow-2xl transition-transform duration-300`}
                     >
                         <div className="flex justify-center mb-4">
-                            <img src={prize.icon} alt={prize.medal} className="w-20 h-16" />
+                            <img src={prize.icon} alt={prize.medal} className="w-22" />
                         </div>
                         <h3 className="text-xl font-bold">{prize.position}</h3>
                         <p className="text-3xl font-extrabold mt-2">{prize.amount}</p>
-                        <span className="mt-4 inline-block bg-purple text-purple-300 text-sm px-3 py-1 rounded-full">
-                            {prize.medal}
-                        </span>
                     </div>
                 ))}
             </div>
