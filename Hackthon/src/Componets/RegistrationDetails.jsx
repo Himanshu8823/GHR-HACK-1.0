@@ -5,10 +5,10 @@ const RegistrationDetails = () => {
     return (
         <div className="flex justify-center items-center min-h-[100vh] RegisterDetails">
             <div className="text-center text-white py-10">
-                <h1 className="text-4xl font-bold mb-10">REGISTRATION DETAILS</h1>
+                <h1 className="text-4xl font-bold mb-10 font-[Ghr4]">REGISTRATION DETAILS</h1>
                 <div className="flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-10">
                     <div className="flex flex-col items-center animated-circle left-circle">
-                        <div className="bg-white rounded-xl p-8 mb-4 w-54 h-46 flex justify-center items-center mt-10">
+                        <div className="bg-white rounded-xl p-8 mb-4 w-64 h-56 flex justify-center items-center mt-10">
                             <i className="fas fa-qrcode text-black text-8xl"></i>
                         </div>
                         <h2 className="text-xl font-bold text-black">How to Register</h2>
@@ -20,7 +20,7 @@ const RegistrationDetails = () => {
                         <i className="fas fa-chevron-right"></i>
                     </div>
                     <div className="flex flex-col items-center animated-circle top-circle">
-                        <div className="bg-white rounded-xl p-8 mb-4 w-[10rem] h-46 flex justify-center items-center mt-10">
+                        <div className="bg-white rounded-xl p-8 mb-4  w-56 h-56 flex justify-center items-center mt-10">
                             <i className="fas fa-dollar-sign text-black text-8xl"></i>
                         </div>
                         <h2 className="text-xl font-bold text-black">No Fees</h2>
@@ -32,7 +32,7 @@ const RegistrationDetails = () => {
                         <i className="fas fa-chevron-right"></i>
                     </div>
                     <div className="flex flex-col items-center animated-circle right-circle">
-                        <div className="bg-white rounded-xl p-8 mb-4 w-54 h-46 flex justify-center items-center mt-10">
+                        <div className="bg-white rounded-xl p-8 mb-4 w-64 h-56 flex justify-center items-center mt-10">
                             <i className="fas fa-user-graduate text-black text-8xl"></i>
                         </div>
                         <h2 className="text-xl font-bold text-black">Eligibility</h2>
