@@ -1,87 +1,57 @@
-import Mayur from"../assets/Team/Me.jpg";
-import "../Styles/Team.css";
+// import React from "react";
+import "../styles/Team.css"; // Custom styles
+import Mayur from "../assets/Team/Me.jpg"
+import Kartik from "../assets/Team/Me.jpg"
+import Vidya from "../assets/Team/Vidya-Baviskar.jpg"
+import Kalpesh from "../assets/Team/Kalpesh-borde.jpg"
+import Mrunal from "../assets/Team/Mrunal-Mahajan.jpg"
+import Neeraj from "../assets/Team/Me.jpg"
+import KartikD from "../assets/Team/Me.jpg"
+import Kunal from "../assets/Team/Krunal-Badgujar.png"
+import Bhavesh from "../assets/Team/Bhavesh-kanaiya.jpg"
+import Shreyas from "../assets/Team/Shreyash-badgujar.jpg"
+import Rohit from "../assets/Team/Rohit-pitrubhakt.jpg"
 
-function Team() {
-    return (
-        <div id="Team" className=" bg-[#011947]">
-        <div className="text-center Team" id="team">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold ">Team</h1>
-            <h2 className="text-2xl sm:text-3xl font-bold mt-10 text-left ms-10 ps-10 text-white">ORGANIZERS</h2>
-            <div className="flex flex-col sm:flex-row justify-center mt-10 space-y-10 sm:space-y-0 sm:space-x-10">
-                <div className="text-center">
-                    <div className="w-40 h-40 sm:w-60 sm:h-60 bg-gray-300 rounded-full mx-auto"></div>
-                    <h3 className="text-lg sm:text-xl font-bold mt-4">Kartik Chaudhari</h3>
-                    <p className="text-md sm:text-lg">Overall Coordinator</p>
-                </div>
-                <div className="text-center">
-                    <div className="w-40 h-40 sm:w-60 sm:h-60 bg-gray-300 rounded-full mx-auto"></div>
-                    <h3 className="text-lg sm:text-xl font-bold mt-4">Vidya Baviskar</h3>
-                    <p className="text-md sm:text-lg">Overall coordinator</p>
-                </div>
-                <div className="text-center">
-                    <div className="w-40 h-40 sm:w-60 sm:h-60 bg-gray-300 rounded-full mx-auto"></div>
-                    <h3 className="text-lg sm:text-xl font-bold mt-4">Kalpesh Borde</h3>
-                    <p className="text-md sm:text-lg">Overall coordinator</p>
-                </div>
-            </div>
-            <h2 className="text-2xl sm:text-3xl font-bold mt-10 text-left ms-10 ps-10 text-white">OPERATIONS</h2>
-            <div className="text-center">
-                <div className="w-40 h-40 sm:w-60 sm:h-60 bg-gray-300 rounded-full mx-auto"></div>
-                <h3 className="text-lg sm:text-xl font-bold mt-4">Mrunal Mahajan</h3>
-                <p className="text-md sm:text-lg">Head Coordinator</p>
-            </div>        
+// Team data
+const teamMembers =[
+    // { name: "Kartik Chaudhari", role: "Overall Coordinator", photo: Kartik },
+    { name: "Vidya Baviskar", role: "Overall Coordinator", photo: Vidya, linkedin: "" },
+    { name: "Kalpesh Borde", role: "Overall Coordinator", photo: Kalpesh ,linkedin: "https://www.linkedin.com/in/kalpesh-borde-0b1b3b1b7" },
+    { name: "Mrunal Mahajan", role: "Operations Team", photo: Mrunal },
+    { name: "Mayur Nikumbh", role: "Technical Team", photo: Mayur },
+    { name: "Kunal Badgujar", role: "Logistics Team", photo: Kunal },
+    // { name: "Neeraj Rakhecha", role: "Design Team", photo: Neeraj },
+    // { name: "Kartik Deshmukh", role: "Design Team", photo: KartikD },
+    // { name: "Bhavesh Kanhaiya", role: "Marketing Team", photo: Bhavesh },
+    { name: "Shreyas Badgujar", role: "Finance Team", photo: Shreyas },
+    { name: "Rohit Pitrubhakt", role: "Finance Team", photo: Rohit , linkedin: "https://www.linkedin.com/in/rohit-pitrubhakt-5a2737257" },
+];
 
-            <h2 className="text-2xl sm:text-3xl font-bold mt-10 text-left ms-10 ps-10 text-white">LOGISTICS</h2>
-            <div className="text-center">
-                <div className="w-40 h-40 sm:w-60 sm:h-60 bg-gray-300 rounded-full mx-auto"></div>
-                <h3 className="text-lg sm:text-xl font-bold mt-4">Kunal Badgujar</h3>
-                <p className="text-md sm:text-lg">Head Coordinator</p>
-            </div>
-
-            <h2 className="text-2xl sm:text-3xl font-bold mt-10 text-left ms-10 ps-10 text-white">TECHNICAL</h2>
-            <div className="text-center">
-                <div className="w-40 h-40 sm:w-60 sm:h-60 rounded-full mx-auto"><img className="rounded-full" src={Mayur}/></div>
-                <h3 className="text-lg sm:text-xl font-bold mt-4">Mayur Nikumbh</h3>
-                <p className="text-md sm:text-lg">Head Coordinator</p>
-            </div>
-
-            <h2 className="text-2xl sm:text-3xl font-bold mt-10 text-left ms-10 ps-10 text-white">DESIGN</h2>
-            <div className="flex flex-col sm:flex-row justify-center mt-10 space-y-10 sm:space-y-0 sm:space-x-10">
-                <div className="text-center">
-                    <div className="w-40 h-40 sm:w-60 sm:h-60 bg-gray-300 rounded-full mx-auto"></div>
-                    <h3 className="text-lg sm:text-xl font-bold mt-4">Neeraj Rakhecha</h3>
-                    <p className="text-md sm:text-lg">Head Coordinator</p>
-                </div>
-                <div className="text-center">
-                    <div className="w-40 h-40 sm:w-60 sm:h-60 bg-gray-300 rounded-full mx-auto"></div>
-                    <h3 className="text-lg sm:text-xl font-bold mt-4">Kartik Deshmukh</h3>
-                    <p className="text-md sm:text-lg">Head Coordinator</p>
-                </div>                
-            </div>
-
-            <h2 className="text-2xl sm:text-3xl font-bold mt-10 text-left ms-10 ps-10 text-white">MARKETING</h2>
-            <div className="text-center">
-                <div className="w-40 h-40 sm:w-60 sm:h-60 bg-gray-300 rounded-full mx-auto"></div>
-                <h3 className="text-lg sm:text-xl font-bold mt-4">Bhavesh Kanhaiya</h3>
-                <p className="text-md sm:text-lg">Head Coordinator</p>
-            </div>
-
-            <h2 className="text-2xl sm:text-3xl font-bold mt-10 text-left ms-10 ps-10 text-white">FINANCE</h2>
-            <div className="flex flex-col sm:flex-row justify-center mt-10 space-y-10 sm:space-y-0 sm:space-x-10  pb-10">
-                <div className="text-center">
-                    <div className="w-40 h-40 sm:w-60 sm:h-60 bg-gray-300 rounded-full mx-auto"></div>
-                    <h3 className="text-lg sm:text-xl font-bold mt-4">Shreyas Badgujar</h3>
-                    <p className="text-md sm:text-lg">Head Coordinator</p>
-                </div>
-                <div className="text-center">
-                    <div className="w-40 h-40 sm:w-60 sm:h-60 bg-gray-300 rounded-full mx-auto"></div>
-                    <h3 className="text-lg sm:text-xl font-bold mt-4"> Rohit Pitrubhakt</h3>
-                    <p className="text-md sm:text-lg">Head Coordinator</p>
-                </div>                
-            </div>
-        </div>
-        </div>
-    );
-}
+const Team = () => {
+  return (
+    <section className="team-section Team">
+      <h2 className="team-title font-[Ghr4] text-white">Meet Our Team</h2>
+      <div className="team-container">
+        {teamMembers.map((member, index) => (
+          <div key={index} className="team-card">
+            <img src={member.photo} alt={member.name} className="team-photo" />
+            <h3 className="team-name text-black font-[Ghr4]">{member.name}</h3>
+            <p className="team-role">{member.role}</p>
+            <a
+              href={member.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="linkedin-link"
+            ><img
+                src="..\src\assets\Logo\Linked in.png"
+                alt="LinkedIn"
+                className="linkedin-icon cursor-pointer"/>
+            </a>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
 
 export default Team;

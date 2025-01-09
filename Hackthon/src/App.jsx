@@ -5,7 +5,7 @@ import AboutSection from './Componets/About'
 import FAQ from './Componets/Faq'
 import Footer from './Componets/Footer'
 import Slider from './Componets/ProblemStatement'
-import Box from './Componets/Box'
+import PrizeCards from './Componets/Box'
 import RegistrationDetails from './Componets/RegistrationDetails'
 import Sponsors from './Componets/Sponsors'
 import Contact from './Componets/contact'
@@ -15,6 +15,7 @@ import Home from './Componets/Home'
 import Background from './Componets/Background'
 import HackathonThemes from './Componets/Theme'
 import ProblemStatements from './Componets/Problems'
+import InfiniteSlider from './Componets/InfiniteSlider'
 
 function App() {
   return (
@@ -23,12 +24,13 @@ function App() {
     <Home  /> */}
     <Background />
     <AboutSection />
+    <InfiniteSlider />
     <EventHighlights />
     <HackathonThemes />
-    <Box />
+    <PrizeCards />
     <RegistrationDetails />
     <Sponsors />
-    {/* <Team /> */}
+    <Team />
     <FAQ />
     <Contact />
     <Footer />
