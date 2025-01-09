@@ -1,0 +1,38 @@
+/* Slider Container */
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #00A6D2; /* Optional: Set a background color */
+    padding: 1rem 0;
+    /* Optional: Add border to images */
+  }
+  
+  /* Slider */
+  .slider {
+    display: flex;
+    gap: 1rem;
+    animation: scroll 20s linear infinite;
+    width: fit-content; /* Ensures the slider fits content size */
+  }
+  
+  /* Individual Slide */
+  .slide {
+    flex-shrink: 0;
+  }
+  
+  .slide img {
+    max-width: 10rem; 
+    border-radius: 10px;
+    border: 2px solid gold;
+  }
+  
+  /* Animation */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
